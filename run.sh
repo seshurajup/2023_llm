@@ -1,0 +1,6 @@
+#python3 train_7b_cli.py --hug Salesforce/xgen-7b-4k-base --seed 42 --epochs 10 --lora_r 16 --lora_alpha 32 --lora_dropout 0.05 --max_seq_length 2048 --train_batch_size 144 --eval_batch_size 16
+#python3 train_7b_cli.py --hug Salesforce/xgen-7b-8k-base --seed 42 --epochs 10 --lora_r 16 --lora_alpha 32 --lora_dropout 0.05 --max_seq_length 2048 --train_batch_size 144 --eval_batch_size 16
+python3 train_7b_cli.py --hug mosaicml/mpt-7b --seed 42 --epochs 10 --lora_r 16 --lora_alpha 32 --lora_dropout 0.05 --max_seq_length 2048 --train_batch_size 144 --eval_batch_size 16
+python3 train_7b_cli.py --hug tiiuae/falcon-7b --seed 42 --epochs 10 --lora_r 16 --lora_alpha 32 --lora_dropout 0.05 --max_seq_length 2048 --train_batch_size 144 --eval_batch_size 16
+#python3 train_7b_cli.py --hug togethercomputer/RedPajama-INCITE-7B-Base --seed 42 --epochs 10 --lora_r 16 --lora_alpha 32 --lora_dropout 0.05 --max_seq_length 2048 --train_batch_size 144 --eval_batch_size 16
+python3 train_7b_cli.py --hug databricks/dolly-v2-7b --seed 42 --epochs 10 --lora_r 16 --lora_alpha 32 --lora_dropout 0.05 --max_seq_length 2048 --train_batch_size 144 --eval_batch_size 16
